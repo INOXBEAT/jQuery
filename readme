@@ -1,0 +1,11 @@
+jQuery:
+
+* ¿Qué es jQuery?: jQuery es una biblioteca de JavaScript rápida, pequeña y rica en funciones que simplifica la escritura de scripts de JavaScript en los sitios web.
+* ¿Para qué se utiliza?: Se utiliza para simplificar tareas comunes de JavaScript, como la manipulación del DOM, manejo de eventos, animaciones y solicitudes AJAX.
+* Ventajas de usar jQuery: Facilita la escritura de código JavaScript al proporcionar métodos abreviados y funciones auxiliares que simplifican tareas comunes. Además, es compatible con una amplia gama de navegadores, lo que facilita el desarrollo web multiplataforma.
+
+Pasos para usar jQuery en un proyecto:
+1. Incluir jQuery: Puedes incluir jQuery en tu proyecto a través de un archivo descargado localmente o mediante un CDN (Content Delivery Network). En nuestro ejemplo, utilizamos un CDN para incluir jQuery en nuestro proyecto.
+2. Esperar a que el documento esté listo: Para garantizar que el código jQuery se ejecute después de que el documento HTML esté completamente cargado, utilizamos $(document).ready() o su forma abreviada $(). Esto asegura que el código jQuery se ejecute una vez que el DOM esté disponible para ser manipulado.
+3. Escribir código jQuery: Una vez que el documento esté listo, podemos escribir código jQuery para realizar diversas acciones, como manipular elementos HTML, responder a eventos del usuario, realizar animaciones, etc.
+4. Ejecutar el proyecto: Finalmente, podemos ejecutar nuestro proyecto abriendo el archivo HTML en un navegador web para ver el resultado de nuestro código jQuery en acción.
