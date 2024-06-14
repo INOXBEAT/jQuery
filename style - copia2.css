@@ -1,0 +1,202 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #030303;
+    margin: 20px 0;
+}
+
+/* ENCABEZADO */
+header {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* MENU DESPLEGABLE */
+.menu-container {
+    width: 400px;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    text-align: center;
+}
+
+.menu-toggle {
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    display: none; /* Oculta el menú por defecto */
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    position: absolute;
+    width: 150px;
+    z-index: 1000;
+}
+
+.menu li {
+    padding: 10px;
+}
+
+.menu li a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+}
+
+.menu li a:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* BOTÓN QUE SALUDA */
+
+.saludo-container {
+    width: 400px;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    text-align: center;
+}
+
+.saludar {
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #525151;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* GALERÍA CON EFECTO DE DESPLAZAMIENTO */
+
+.gallery-container {
+    width: 400px;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    text-align: center;
+}
+
+.gallery {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.images img {
+    max-width: 100%;
+    max-height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.controls {
+    margin-top: 10px;
+}
+
+.controls button {
+    margin: 0 5px;
+}
+
+
+/* FORMULARIO DE REGISTRO */
+
+.form-container {
+    width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.8em;
+}
+
+/* MAPA INTERACTIVO */
+
+/* MAPA INTERACTIVO */
+.map-container {
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+#map {
+    width: 60%;
+    height: 600px;
+    border-radius: 5px;
+}
